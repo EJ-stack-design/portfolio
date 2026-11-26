@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal developer portfolio of EJ Godpray Doquila.">
+    <title>EJ Godpray Doquila | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">EJ<span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn"
+                aria-label="Toggle navigation">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="intro">HELLO, I'M</p>
+                <h1>EJ GODPRAY <span>DOQUILA</span></h1>
+                <h2>Computer Engineering Student & Developer</h2>
+
+                <p class="hero-description">
+                    Passionate about software development, embedded systems,
+                    and building technology that solves real-world problems.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        View My Projects
+                    </a>
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/profile.jpg"
+                     alt="EJ Godpray Doquila">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+
+            <p>
+                I am a Computer Engineering student interested in software
+                development, mobile applications, database management,
+                and embedded systems.
+
+                I enjoy developing practical projects that combine
+                programming and hardware to address real-world challenges.
+            </p>
+        </section>
+
+        <section id="skills" class="section">
+            <p class="section-label">WHAT I WORK WITH</p>
+            <h2>Technical <span>Skills</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">HTML & CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">C++</div>
+                <div class="skill-card">Dart & Flutter</div>
+                <div class="skill-card">PHP</div>
+                <div class="skill-card">MySQL</div>
+                <div class="skill-card">ESP32</div>
+                <div class="skill-card">Arduino</div>
+                <div class="skill-card">Git & GitHub</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="section-label">MY WORK</p>
+            <h2>Featured <span>Projects</span></h2>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <img src="assets/smart-transit.png"
+                         alt="Smart Transit project">
+                    <div class="project-info">
+                        <h3>Smart Transit</h3>
+                        <p>
+                            A mobile vehicle tracking system designed
+                            to improve commuter experience through GPS
+                            tracking and estimated arrival times.
+                        </p>
+                        <p class="tech-stack">
+                            Flutter · GPS · Node.js · MySQL
+                        </p>
+                        <a href="https://github.com/EJ-stack-design"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Repository →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/water-dispenser.png"
+                         alt="ESP32 Smart Water Dispenser">
+                    <div class="project-info">
+                        <h3>Smart Water Dispenser</h3>
+                        <p>
+                            An automated water dispensing system
+                            using an ESP32, ultrasonic sensors,
+                            and servo motor.
+                        </p>
+                        <p class="tech-stack">
+                            ESP32 · Arduino · Sensors
+                        </p>
+                        <a href="https://github.com/EJ-stack-design"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Repository →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+            <p>Interested in collaborating or discussing a project?</p>
+
+            <a href="https://github.com/EJ-stack-design"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub Profile
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> EJ Godpray Doquila. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
